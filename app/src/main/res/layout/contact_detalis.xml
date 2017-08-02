@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_transparent">
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/ivMore"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:src="@drawable/ic_more" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/ivEdit"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignLeft="@+id/ivMore"-->
+        <!--android:src="@drawable/ic_edit" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/ivFavorite"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignLeft="@+id/ivEdit"-->
+        <!--android:src="@drawable/ic_favourite" />-->
+
+        <!--</RelativeLayout>-->
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rlImageDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivImageDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_betty_allen" />
+
+                <TextView
+                    android:id="@+id/tvImageDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout16dp"
+                    android:layout_marginLeft="@dimen/layout16dp"
+                    android:layout_marginTop="@dimen/layout191Px"
+                    android:text="Betty Allen"
+                    android:textColor="@color/color_White"
+                    android:textSize="@dimen/layout28dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout86dp"
+                android:layout_marginLeft="@dimen/layout4dp"
+                android:layout_marginRight="@dimen/layout4dp"
+                android:layout_marginTop="@dimen/layout4dp">
+
+                <ImageView
+                    android:id="@+id/callBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout16dp"
+                    android:layout_marginRight="@dimen/layout28dp"
+                    android:layout_marginTop="@dimen/layout26dp"
+                    android:src="@drawable/ic_call_blue" />
+
+                <TextView
+                    android:id="@+id/tvNumberContactDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout4dp"
+                    android:layout_marginTop="@dimen/layout26dp"
+                    android:layout_toRightOf="@+id/callBlue"
+                    android:text="+91 99999999999999"
+                    android:textSize="@dimen/layout16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvNumberContactDetails"
+                    android:layout_toRightOf="@id/callBlue"
+                    android:text="@string/mobile"
+                    android:textSize="@dimen/layout14dp" />
+
+                <ImageView
+                    android:id="@+id/ivMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/layout16dp"
+                    android:layout_marginTop="@dimen/layout27dp"
+                    android:src="@drawable/ic_message" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout86dp"
+                android:layout_marginLeft="@dimen/layout4dp"
+                android:layout_marginRight="@dimen/layout4dp"
+                android:layout_marginTop="@dimen/layout4dp">
+
+                <ImageView
+                    android:id="@+id/emailBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout16dp"
+                    android:layout_marginRight="@dimen/layout28dp"
+                    android:layout_marginTop="@dimen/layout26dp"
+                    android:src="@drawable/ic_email_blue" />
+
+                <TextView
+                    android:id="@+id/tvEmailContactDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout4dp"
+                    android:layout_marginTop="@dimen/layout26dp"
+                    android:layout_toRightOf="@+id/emailBlue"
+                    android:text="ru_permana@yahoo.co.id"
+                    android:textSize="@dimen/layout16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvEmailContactDetails"
+                    android:layout_toRightOf="@id/emailBlue"
+                    android:text="@string/home"
+                    android:textSize="@dimen/layout14dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout4dp">4dp</dimen>
+    <dimen name="layout8dp">8dp</dimen>
+    <dimen name="layout14dp">14dp</dimen>
+    <dimen name="layout16dp">16dp</dimen>
+    <dimen name="layout20dp">20dp</dimen>
+    <dimen name="layout24dp">24dp</dimen>
+    <dimen name="layout32dp">32dp</dimen>
+    <dimen name="layout48dp">48dp</dimen>
+    <dimen name="layout26dp">26dp</dimen>
+    <dimen name="layout28dp">28dp</dimen>
+    <dimen name="layout27dp">27dp</dimen>
+    <dimen name="layout72dp">72dp</dimen>
+    <dimen name="layout86dp">86dp</dimen>
+    <dimen name="layout100dp">100dp</dimen>
+    <dimen name="layout120dp">120dp</dimen>
+
+    <dimen name="layout191Px">191px</dimen>
+
+</resources>
